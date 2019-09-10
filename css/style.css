@@ -1,0 +1,119 @@
+.outer-body {
+    background: #26292e;
+}
+
+.top-bar {
+    position: relative;
+    margin-top: 25px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+h1 {
+    color: #dfe0e2;
+    font-family: 'giddyup-std', sans-serif;
+    font-weight: 400;
+    font-size: 49px;
+    font-style: normal;
+}
+
+.hero {
+    padding: 30px;
+    background: linear-gradient(#ec8da1, #e7718a, #e7718b);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero h2 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.hero p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.hero button {
+    padding: 10px;
+    border: none;
+    background-color: #4e4e4e;
+    color: #fff;
+}
+
+.main-body {
+    padding: 30px;
+    border-bottom: 3px solid #fae4e9;
+    background: #f4f4f5;
+}
+
+.main-body h2 {
+    color: #414141;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-body p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-outer {
+    padding: 25px;
+    background: #fffffd;
+}
+
+.product-outer h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.product-outer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.footer-bar {
+    padding: 30px;
+    background: #26292e;
+    color: #fff;
+}
+
+.footer-bar p {
+    margin-top: 23px;
+}
+
+.bottom-bar {
+    position: relative;
+    margin-top: 15px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: white;
+    color: black;
+    font-size: 25px;
+}
+
+
+/*mobile Responsive*/
+
+@media (min-width:200px) and (max-width:767) {
+    .top-bar h1 {
+        color: #dfe0e2;
+        font-family: 'giddyup-std', sans-serif;
+        font-weight: 350;
+        font-size: 30px;
+        font-style: normal;
+        text-align: center;
+    }
+    .img-responsive {
+        margin-left: 10px;
+    }
+    .hero h2 {
+        text-align: center;
+    }
+    .hero p {
+        text-align: center;
+    }
+}
